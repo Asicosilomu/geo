@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+  <head>
+    <meta charset="utf-8">
+    <title>Polonia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style type="text/css">
+      .slide:not(.nocenter)
+      {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        font-family: sans-serif;
+        justify-content: center;
+        align-items: center;
+      };
+    </style>
+    <style type="text/css">
+      .nocenter
+      {
+        width: 100vw;
+        height: 100vh;
+        font-family: sans-serif;
+      };
+    </style>
+    <style type="text/css">table, tr, td { border: 1px solid black; };</style>
+    <script type="text/javascript">
+      // Comutatorul diapozitivelor (TM)
+      var cur = 1;
+      var min = 1;
+      var max = 11;
+
+      function updateSlide()
+      {
+        document.body.querySelectorAll(".slide").forEach(function(v, i) { if (Number(v.id) != cur) { v.style.display = "none"; } else { v.style.display = "flex"; }; })
+      };
+
+      this.addEventListener('keyup', event => {
+        if (event.keyCode == 37) {
+          if (cur > min) cur--; updateSlide();
+        }
+        if (event.keyCode == 39) {
+          if (cur < max) cur++; updateSlide();
+        }
+      });
+    </script>
+  </head>
+  <body style="overflow: hidden; margin: 0px;">
+    <div id="1" class="slide" style="background-image: url('./Polands-flag.jpg'); background-repeat: no-repeat; background-size: cover;">
+      <div>
+        <center>
+          <h1 style="font-size: 50pt;">Polonia</h1>
+          <p style="background-color: white; font-size: 20pt;"><i>&nbsp;&nbsp;Al 22-lea stat din Uniunea Europeană&nbsp;&nbsp;</i></p>
+        </center>
+      </div>
+    </div>
+    <div id="2" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">PREZENTARE GENERALĂ</h1>
+        <div style="float: left; margin-right: 25px;">
+          <div style="border: 1px solid black; height: 125px;"><img src="./Flag_of_Poland.png" style="margin-top: 10px; margin-left: 10px; width: 150px; height: 100px; border-style: solid; border-color: black; float: left;">&nbsp;&nbsp;&nbsp;<h1 style="margin-top: 20px;"><i>&nbsp;&nbsp;&nbsp;Polonia</i></h1></div>
+          <table>
+            <tbody>
+              <tr><td><h2 style="margin: 0px;">&nbsp;Suprafață&nbsp;</h2></td><td><h2 style="margin: 0px;">&nbsp;312.679 km²&nbsp;</h2></td></tr>
+              <tr><td><h2 style="margin: 0px;">&nbsp;Acoperire de apă&nbsp;</h2></td><td><h2 style="margin: 0px;">&nbsp;3,07%&nbsp;</h2></td></tr>
+              <tr><td><h2 style="margin: 0px;">&nbsp;Populație&nbsp;</h2></td><td><h2 style="margin: 0px;">&nbsp;38.179.800 de locuitori (2021)&nbsp;</h2></td></tr>
+              <tr><td><h2 style="margin: 0px;">&nbsp;Densitate&nbsp;</h2></td><td><h2 style="margin: 0px;">&nbsp;38.483.957 (estimare 2014)&nbsp;</h2></td></tr>
+              <tr><td><h2 style="margin: 0px;">&nbsp;Capitală&nbsp;</h2></td><td><h2 style="margin: 0px;">&nbsp;Varșovia (Warszawa)&nbsp;</h2></td></tr>
+              <tr><td><h2 style="margin: 0px;">&nbsp;Limbă oficială&nbsp;</h2></td><td><h2 style="margin: 0px;">&nbsp;poloneză&nbsp;</h2></td></tr>
+              <tr><td><h2 style="margin: 0px;">&nbsp;Imn național&nbsp;</h2></td><td><h2 style="margin: 0px;">&nbsp;<i>Mazurek Dąbrowskiego</i>&nbsp;</h2><audio controls style="margin-left: 5px;"><source src="./Mazurek Dąbrowskiego.mp3" type="audio/mpeg"></audio></td></tr>
+              <tr><td><h2 style="margin: 0px;">&nbsp;Formă de guvernământ&nbsp;</h2></td><td><h2 style="margin: 0px;">&nbsp;republică parlamentară&nbsp;</h2></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="float: right;">
+          <h3 style="margin: 0px; width: 600px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><u>Polonia</u></i> (oficial <i><u>Republica Polonă</u></i>) este un stat european din Europa Centrală, având ca vecini: Germania, Cehia, Slovacia, Ucraina, Belarus, Lituania și Rusia, și are ieșire la Marea Baltică. Suprafața Poloniei este de 312.679 km², fiind al 70-lea cel mai mare stat din lume. În 2021, Polonia avea o populație de 38,5 milioane de locuitori, situând-o pe locul 38 la populație.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polonia este o putere regională, fiind a opta ca mărime și una dintre cele mai dinamice economii din UE, având un nivel scăzut de corupție și un nivel foarte mare de dezvoltare umană. Aceasta a devenit membră a Uniunii Europene la data de 1 mai 2004, alături de alte 9 state. Pe lângă Uniunea Europeană, Polonia mai este membră a NATO, ONU, OECD (Organizația pentru Cooperare și Dezvoltare Economică) și a Organizației Mondiale a Comerțului.</h3>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="3" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">ISTORIE</h1>
+        <h3 style="margin-top: 0px; margin-bottom: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;În anul 966, <i><u>Mieszko I</u></i> a creat primul stat polonez, al cărui teritoriu a fost similar cu limitele Poloniei de astăzi. Atunci a început și Creștinarea Poloniei, alături de combaterea credințelor slave păgâne. În 1025, fiul acestuia, <i><u>Boleslav Viteazul</u></i> a devenit primul rege al Poloniei. Acesta a impus independența statului față de <u>Sfântul Imperiu Roman de Națiune Germană</u>. <i><u>Mieszko al II-lea Lambert</u></i>, succesorul său, nu a reușit să consolideze realizările acestuia, destabilizând țara și pierzând o serie de teritorii.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><u>Cazimir Restauratorul</u></i>, fiul lui Mieszko II, a restaurat statul și a reparat greșelile acestuia.</h3>
+      </div>
+    </div> -->
+    <div id="3" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">GEOGRAFIE</h1>
+        <div style="float: left; margin-right: 2vw;">
+          <h3 style="margin-top: 0px; margin-bottom: 0px; width: 45vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polonia este situată în nordul Europei Centrale, între <i>49° - 54° 50'</i> latitudine nordică și <i>14° 7' - 24° 8'</i> longtitudine estică. Teritoriul Poloniei cuprinde 16 voievodate, 310 județe, 63 municipii și 2489 comune. După suprafață, Polonia ocupă locul 9 în Europa și locul 69 în lume.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Întinderea Poloniei este de <i>15° 51'</i>. Aceasta are o lungime de 649 km, sau <i>5° 50'</i>, de la nord la sud. Lungimea acesteia duce la o diferență a duratei zilei între nordul și sudul țării. De la vest la est, țara măsoară 689 km, sau <i>10° 2'</i>. Polonia se află în fusul orar al Europei Centrale, timpul solar al meridianului <i>15°</i>.<br><br>Punctele extreme ale Poloniei sunt:<ul><li>la sud: <i>vârful Opołonek</i> (49° 00' N)</li><li>la nord: <i>Jastrzębia Góra</i>, cartierul orașului <i>Władysławowo</i> (54° 50' N)</li><li>la vest: curba fluviului <i>Odra</i> în apropierea satului <i>Osinów Dolny</i> (14° 07' E)</li><li>la est: curba râului <i>Bug</i> în apropierea satului <i>Zosin</i> (24° 09')</li></h3>
+        </div>
+        <img src="./harta_politica_Polonia.jpg" style="float: right; width: 48vw; height: 35vw;"></img>
+      </div>
+    </div>
+    <div id="4" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">APE</h1>
+        <div style="float: left; margin-right: 2vw;">
+          <h3 style="margin-top: 0px; margin-bottom: 0px; width: 45vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cu aproape 10.000 de corpuri de apă, acoperind mai mult de un hectar, Polonia este al doilea stat european cu cele mai multe lacuri, fiind depășită doar de Finlanda. Cele mai mari lacuri se regăsesc în <i>Mazuria</i>, cu o întindere de peste 100 km².<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cât timp majoritatea râurilor poloneze se varsă direct sau indirect în <i>Marea Baltică</i>, unele râuri au afluenți care se varsă, prin <i>Váh</i> și <i>Dunăre</i>, în Marea Neagră.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cel mai adânc lac este lacul <i>Hańcza</i>, aflat în apropierea orașului <i>Suwałki</i>. Acesta are o adâncime de 108,5 metri.</h3>
+        </div>
+        <img src="./2005-09_Masuren.jpg" style="float: right; width: 48vw; height: 35vw; border-radius: 10px;"></img>
+      </div>
+    </div>
+    <div id="5" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">CLIMĂ</h1>
+        <div style="float: left; margin-right: 2vw;">
+          <h3 style="margin-top: 0px; margin-bottom: 0px; width: 45vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polonia are o climă moderată, caldă tranzitivă, unde temperaturile din sud ating valori mai înalte decât în nord. Vara, temperatura medie este de 17 °C pe coastă, iar iarna, temperaturile medii sunt între 0 °C în Świnoujście și -7 °C în Suwałki. Precipitațiile sunt intense tot anul, dar, mai ales în est, iarna este mai secetoasă decât vara.</h3>
+        </div>
+        <img src="./hot.jpg" style="float: right; width: 48vw; height: 35vw; border-radius: 10px;"></img>
+      </div>
+    </div>
+    <div id="6" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">ORAȘE</h1>
+        <div style="float: left; margin-right: 2vw;">
+          <h3 style="margin-top: 0px; margin-bottom: 0px; width: 45vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;În Polonia sunt 913 orașe, dintre care cele mai recente două au primit titlul de orașe la <u>1 ianuarie 2014</u>. Cel mai mic oraș este <i>Wyśmierzyce</i>, cu o populație de 906 locuitori, cât timp cel mai mare, <i>Varșovia</i>, are o populație de 1.758.536 de locuitori.<br><br>În Polonia, se regăsesc 17 orașe cu o populație mai mare de 200.000 de locuitori:<br><br><table style="font-size: 12pt !important;"><tr><td><ul><li>Varșovia — 1.758.536 de locuitori</li><li>Cracovia — 766 739 de locuitori</li><li>Łódź — 693 797 de locuitori</li><li>Wrocław — 638.364 de locuitori</li><li>Poznań — 551.627 de locuitori</li><li>Gdańsk — 463.754 de locuitori</li><li>Szczecin — 405.657 de locuitori</li><li>Bydgoszcz — 366.074 de locuitori</li></ul></td><td><ul><li>Lublin — 354.967 de locuitori</li><li>Katowice — 317.220 de locuitori</li><li>Białystok — 294.864 de locuitori</li><li>Gdynia — 252.791 de locuitori</li><li>Częstochowa — 246.890 de locuitori</li><li>Radom — 227.018 de locuitori</li><li>Sosnowiec — 226.034 de locuitori</li><li>Kielce — 208.193 de locuitori</li><li>Toruń — 208.007 de locuitori</li></ul></td></tr></table></h3>
+        </div>
+        <img src="./tw.jpeg" style="float: right; width: 48vw; height: 35vw; border-radius: 10px;"></img>
+      </div>
+    </div>
+    <div id="7" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">DEMOGRAFIE</h1>
+        <div style="float: left; margin-right: 2vw;">
+          <h3 style="margin-top: 0px; margin-bottom: 0px; width: 45vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;95,63% din populația Poloniei este reprezentată de <i>polonezi</i>. La recensământul din 2021, populația de <i>38.036,1</i> de locuitori a Poloniei era alcătuită din:<ul style="font-style: italic;"><li>37.924,2 de mii de polonezi</li><li>53 de mii de ucrainieni</li><li>18,6 de mii de belaruși</li><li>4,9 de mii de ruși</li><li>3,5 de mii de germani</li><li>2,8 de mii de vietnamezi</li><li>2 mii de britanici</li><li>1,9 de mii de italieni</li></ul>0,3 de mii de locuitori aveau cetățenie necunoscută.</h3>
+        </div>
+        <img src="./crowd-6.webp" style="float: right; width: 48vw; height: 35vw; border-radius: 10px;"></img>
+      </div>
+    </div>
+    <div id="8" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">DEMOGRAFIE</h1>
+        <div style="float: left; margin-right: 2vw;">
+          <h3 style="margin-top: 0px; margin-bottom: 0px; width: 45vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Singura limbă oficială a Poloniei este <i>poloneza</i>, fiind și cea mai răspândită limbă din țară, utilizată de 97% din locuitori. Alte patru limbi sunt limbi auxiliare:<ul><li><i>bielorusa</i> (aprox. 220.000 de vorbitori)</li><li><i>cașubiana</i> (aprox. 3.000 - 200.000 de vorbitori)</li><li><i>germana</i> (aprox. 500.000 de vorbitori)</li><li><i>lituaniana</i> (aprox. 3.000 de vorbitori)</li></ul>Alte limbi folosite sunt <i>romani</i> (aprox. 40.000 de vorbitori) și <i>ucraineana</i> (aprox. 150.000 de vorbitori).<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;În Polonia se studiază și limbi străine. Cea mai populară este engleza, urmată de germană. Înainte de schimbările politice din 1989, limba rusă era cea mai cunoscută. Studenții universităților pot să învețe și alte limbi, precum ceha, greaca sau româna, dacă aleg studii filologice.</h3>
+        </div>
+        <img src="./multilingual-seo.jpeg" style="float: right; width: 48vw; height: 35vw; border-radius: 10px;"></img>
+      </div>
+    </div>
+    <div id="9" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">ASOCIAȚIA POLONEZĂ DE FOTBAL (PZPN)</h1>
+        <div style="float: left; margin-right: 2vw;">
+          <h3 style="margin-top: 0px; margin-bottom: 0px; width: 45vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Asociația Poloneză de Fotbal</i> (PZPN) este autoritatea conducătoare a fotbalului în Polonia. A fost fondată în 1919, iar sediul central se află în Varșovia. Se ocupă cu organizarea fotbalului polonez: prima ligă Ekstraklasa, Cupa Poloniei, Supercupa Poloniei și Echipa Națională de Fotbal a Poloniei.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Echipa Națională de Fotbal a Poloniei reprezintă PZPN în competițiile regionale și internaționale. Cei mai selecționați jucători au fost, în 2021:<br><br></h3><div style="height: 220px; overflow: auto; border: 2px solid black;"><table><tr><td>&nbsp;&nbsp;#&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Nume&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Perioadă&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Selecții&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Goluri&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;1&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Robert Lewandowski&nbsp;&nbsp;</td><td>&nbsp;&nbsp;2008-prezent&nbsp;&nbsp;</td><td>&nbsp;&nbsp;116&nbsp;&nbsp;</td><td>&nbsp;&nbsp;63&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;2&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Jakub Błaszczykowski&nbsp;&nbsp;</td><td>&nbsp;&nbsp;2006-prezent&nbsp;&nbsp;</td><td>&nbsp;&nbsp;108&nbsp;&nbsp;</td><td>&nbsp;&nbsp;21&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;3&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Michał Żewłakow&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1998-2011&nbsp;&nbsp;</td><td>&nbsp;&nbsp;102&nbsp;&nbsp;</td><td>&nbsp;&nbsp;3&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;4&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Grzegorz Lato&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1971-1984&nbsp;&nbsp;</td><td>&nbsp;&nbsp;100&nbsp;&nbsp;</td><td>&nbsp;&nbsp;45&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;5&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Kazimierz Deyna&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1968–1978&nbsp;&nbsp;</td><td>&nbsp;&nbsp;97&nbsp;&nbsp;</td><td>&nbsp;&nbsp;41&nbsp;&nbsp;</td></tr><tr><td rowspan="2">&nbsp;&nbsp;6&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Jacek Bąk&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1993–2008&nbsp;&nbsp;</td><td>&nbsp;&nbsp;96&nbsp;&nbsp;</td><td>&nbsp;&nbsp;3&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;Jacek Krzynówek&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1999–2009&nbsp;&nbsp;</td><td>&nbsp;&nbsp;96&nbsp;&nbsp;</td><td>&nbsp;&nbsp;15&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;7&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Władysław Żmuda&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1973–1986&nbsp;&nbsp;</td><td>&nbsp;&nbsp;91&nbsp;&nbsp;</td><td>&nbsp;&nbsp;2&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;8&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Antoni Szymanowski&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1970-1980&nbsp;&nbsp;</td><td>&nbsp;&nbsp;82&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;9&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Zbigniew Boniek&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1976–1988&nbsp;&nbsp;</td><td>&nbsp;&nbsp;80&nbsp;&nbsp;</td><td>&nbsp;&nbsp;24&nbsp;&nbsp;</td></tr><tr><td>&nbsp;&nbsp;10&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Włodzimierz Lubański&nbsp;&nbsp;</td><td>&nbsp;&nbsp;1963–1981&nbsp;&nbsp;</td><td>&nbsp;&nbsp;75&nbsp;&nbsp;</td><td>&nbsp;&nbsp;48&nbsp;&nbsp;</td></tr></table></div><h3></h3>
+        </div>
+        <img src="./teren-fotbal.jpg" style="float: right; width: 48vw; height: 35vw; border-radius: 10px;"></img>
+      </div>
+    </div>
+    <div id="10" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">BIBLIOGRAFIE</h1>
+        <ul>
+          <li><a href="https://ro.wikipedia.org/wiki/Polonia" style="color: black;">https://ro.wikipedia.org/wiki/Polonia</a></li>
+          <li><a href="https://ro.wikipedia.org/wiki/Varșovia" style="color: black;">https://ro.wikipedia.org/wiki/Varșovia</a></li>
+          <li><a href="https://ro.wikipedia.org/wiki/Geografia_Poloniei" style="color: black;">https://ro.wikipedia.org/wiki/Geografia_Poloniei</a></li>
+          <li><a href="https://ro.wikipedia.org/wiki/Echipa_na%C8%9Bional%C4%83_de_fotbal_a_Poloniei" style="color: black;">https://ro.wikipedia.org/wiki/Echipa_na%C8%9Bional%C4%83_de_fotbal_a_Poloniei</a></li>
+          <li><a href="https://ro.wikipedia.org/wiki/Asociația_Poloneză_de_Fotbal" style="color: black;">https://ro.wikipedia.org/wiki/Asociația_Poloneză_de_Fotbal</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="11" class="slide nocenter">
+      <div style="margin: 25px;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 35pt;">ELEMENTE MEDIA</h1>
+        <ul>
+          <li><a href="https://estonianworld.com/wp-content/uploads/2016/06/Polands-flag.jpg" style="color: black;">https://estonianworld.com/wp-content/uploads/2016/06/Polands-flag.jpg</a></li>
+          <li><a href="https://ro.wikipedia.org/wiki/Polonia#/media/Fi%C8%99ier:Flag_of_Poland.svg" style="color: black;">https://ro.wikipedia.org/wiki/Polonia#/media/Fi%C8%99ier:Flag_of_Poland.svg</a></li>
+          <li><a href="https://www.youtube.com/watch?v=mTx45S-dQmQ" style="color: black;">https://www.youtube.com/watch?v=mTx45S-dQmQ</a></li>
+          <li><a href="https://harta.infoturism.ro/Continente/Europa/Polonia/harta/harta_politica_Polonia.gif" style="color: black;">https://harta.infoturism.ro/Continente/Europa/Polonia/harta/harta_politica_Polonia.gif</a></li>
+          <li><a href="https://ro.wikipedia.org/wiki/Polonia#/media/Fi%C8%99ier:2005-09_Masuren.jpg" style="color: black;">https://ro.wikipedia.org/wiki/Polonia#/media/Fi%C8%99ier:2005-09_Masuren.jpg</a></li>
+          <li><a href="https://thumbs.dreamstime.com/b/thermometer-sand-beach-photo-picture-65967805.jpg" style="color: black;">https://thumbs.dreamstime.com/b/thermometer-sand-beach-photo-picture-65967805.jpg</a></li>
+          <li><a href="https://upload.wikimedia.org/wikipedia/commons/f/f8/Rynek_Starego_Miasta_We_Wroclawiu_%28152991773%29.jpeg" style="color: black;">https://upload.wikimedia.org/wikipedia/commons/f/f8/Rynek_Starego_Miasta_We_Wroclawiu_%28152991773%29.jpeg</a></li>
+          <li><a href="https://wp.technologyreview.com/wp-content/uploads/2019/11/crowd-6.jpg" style="color: black;">https://wp.technologyreview.com/wp-content/uploads/2019/11/crowd-6.jpg</a></li>
+          <li><a href="https://904seo.com/wp-content/uploads/2018/08/multilingual-seo.jpeg" style="color: black;">https://904seo.com/wp-content/uploads/2018/08/multilingual-seo.jpeg</a></li>
+          <li><a href="https://www.pressalert.ro/wp-content/uploads/2018/09/teren-fotbal.jpg" style="color: black;">https://www.pressalert.ro/wp-content/uploads/2018/09/teren-fotbal.jpg</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
